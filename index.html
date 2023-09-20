@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "robots" content="noindex, nofollow">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="social.css">
+    <script src="https://kit.fontawesome.com/0ad580fb63.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li>
+                    <a href="#header" onclick="closemenu()">Home</a>
+                    <a href="#about" onclick="closemenu()">About</a>
+                    <a href="#services" onclick="closemenu()">Services</a>
+                    <a href="#portfolio" onclick="closemenu()">Portfolio</a>
+                    <a href="#contact" onclick="closemenu()">Contact</a>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </li>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+
+            <div class="header-text">
+                <p>UI/IX Designer</p>
+                <h1>Hi, I'm <span> Adarsh Kumar</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------- About --------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>Highly motivated and ambitious B.Tech. Computer Science student specializing in Machine Learning
+                        and Artificial Intelligence, seeking an internship opportunity to apply my skills in web
+                        development, UI/UX design, and ML development. Passionate about leveraging technology to solve
+                        real-world problems</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>ML Development</span><br> Building Machine learning based projects </li>
+                            <li><span>UI?UX</span><br> Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br> UI/UX Design learning by self</li>
+                            <li><span>2021 - 2022</span><br>Team lead at StarApp hackathons</li>
+                            <li><span>2019 - 2020</span><br>UI/UX Design Exective at Coin Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br> B.Tech CSE from Gla University </li>
+                            <li><span>2019</span><br>+2 from Prayagraj.</li>
+                            <li><span>2017</span><br>10 from Prayagraj.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services------------------ -->
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desigin</h2>
+                    <p>I'm a web developer with experience in developing and customizing various types of websites, from
+                        e-commerce to corporate sites. I'm passionate about creating visually appealing and
+                        user-friendly websites that meet high standards of quality and performance.</p>
+                    <a href="#"><br><br>Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>ML developer</h2>
+                    <p>I'm an accomplished ML developer who specializes in creating user-friendly and
+                        innovative projects for various industries. With extensive experience in programming,
+                        I develop high-quality solutions that are both functional and aesthetically pleasing. My
+                        commitment to staying up-to-date with the latest technologies allows me to deliver cutting-edge
+                        projects that drive business growth and enhance user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI?UX Desigin</h2>
+                    <p>I'm an experienced UI/UX designer with a track record of creating engaging and visually appealing
+                        interfaces for businesses and individuals. I have a deep understanding of user behavior and stay
+                        up-to-date with the latest design trends and tools to ensure that every design I create is
+                        modern, functional, and meets the needs of the target audience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------portfolio---------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Face recognition</h3>
+                        <p>Developed a face recognition system using deep learning techniques and computer vision
+                            algorithms. The system leverages advanced image processing and neural network models to
+                            accurately identify and verify individuals based on their facial features. Implemented key
+                            functionalities such as face detection, feature extraction, and classification. Integrated
+                            the system with a user-friendly interface for real-time face recognition applications.
+                            Successfully trained the model on a large dataset, achieving high accuracy in face
+                            recognition tasks. The project demonstrates expertise in deep learning, computer vision, and
+                            the practical application of facial recognition technology.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>I have developed various music applications and websites, delivering intuitive interfaces for
+                            users to browse and stream music. My designs prioritize seamless user experience and user
+                            satisfaction.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>I have developed online shopping applications and websites that are user-friendly and
+                            visually appealing. With a focus on functionality and design, I create platforms that offer
+                            seamless experiences for customers.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------contact------------ -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                        <a style="all:unset" href="mailto:Adarshkumarcs@outlook.com">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            adarshkumarcs@outlook.com
+                    </p></a>
+                    <p><a style="all:unset" href="tel:9005609660"><i class="fa-solid fa-square-phone"></i>
+
+                            9005609660
+                    </p></a>
+
+                    <br>
+                    <br>
+                    <div class="card">
+                        <span>Social &nbsp; Links</span>
+                        <a class="social-link" target="_blank" href="https://www.instagram.com/_.mr._.adarsh_/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="social-link" target="_blank" href="https://www.facebook.com/adarsh.kesharawani">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="social-link" target="_blank" href="https://www.linkedin.com/in/the-adarsh-kumar/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a class="social-link" target="_blank" href="https://github.com/adarsh8081">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+                    <!-- ========================== -->
+                    <a target="_blank" href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <span id="msg"></span>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © ADARSH <i class="fa-solid fa-heart"></i> </p>
+        </div>
+    </div>
+
+    <!-- -----------------script----------------- -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
